@@ -1,5 +1,5 @@
 class Post
-
+ @@all = []
   attr_accessor :title, :author
   def initialize(title)
     @title = title
@@ -14,4 +14,7 @@ class Post
     end
     
   end
+  
+    @@all 
+  
 end
